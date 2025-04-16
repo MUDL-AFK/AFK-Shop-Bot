@@ -1,0 +1,6 @@
+@echo off
+echo Deploying commands...
+node src/deploy-commands.js
+echo Starting bot...
+node src/index.js
+pause
